@@ -546,6 +546,23 @@ h3 {
   align-items: center;
 }
 
+.contact-intro {
+  display: grid;
+  grid-template-columns: 5px minmax(0, 1fr);
+  gap: 6px;
+  align-items: start;
+}
+
+.contact-photo {
+  width: 5px;
+  height: 5px;
+  border: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: none;
+}
+
 .contact-links {
   align-content: start;
 }
