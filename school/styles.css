@@ -547,15 +547,18 @@ h3 {
 }
 
 .contact-intro {
+  --contact-photo-size: clamp(60px, 7vw, 72px);
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  gap: 16px;
+  grid-template-columns: var(--contact-photo-size) minmax(0, 1fr);
+  gap: clamp(12px, 2vw, 16px);
   align-items: start;
+  min-width: 0;
 }
 
 .contact-photo {
-  width: 72px;
-  height: 72px;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
   border: 2px solid var(--white);
   border-radius: 50%;
   object-fit: cover;
@@ -569,10 +572,13 @@ h3 {
 
 .contact-links a {
   width: 100%;
+  max-width: 100%;
   padding: 13px 16px;
   border: 1px solid var(--line);
   background: var(--white);
   color: var(--ink);
+  overflow-wrap: anywhere;
+  text-align: center;
   box-shadow: 0 1px 0 rgba(23, 32, 38, 0.04);
 }
 
@@ -656,6 +662,10 @@ h3 {
     right: 16px;
     bottom: 18px;
     width: calc(100% - 32px);
+  }
+
+  .contact-intro {
+    --contact-photo-size: 56px;
   }
 
   .hero-actions .button,
