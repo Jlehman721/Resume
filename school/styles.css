@@ -547,7 +547,7 @@ h3 {
 }
 
 .contact-intro {
-  --contact-photo-size: clamp(60px, 7vw, 72px);
+  --contact-photo-size: clamp(44px, 4vw, 52px);
   display: grid;
   grid-template-columns: var(--contact-photo-size) minmax(0, 1fr);
   gap: clamp(12px, 2vw, 16px);
@@ -665,7 +665,7 @@ h3 {
   }
 
   .contact-intro {
-    --contact-photo-size: 56px;
+    --contact-photo-size: 44px;
   }
 
   .hero-actions .button,
