@@ -548,19 +548,19 @@ h3 {
 
 .contact-intro {
   display: grid;
-  grid-template-columns: 5px minmax(0, 1fr);
-  gap: 6px;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 16px;
   align-items: start;
 }
 
 .contact-photo {
-  width: 5px;
-  height: 5px;
-  border: 0;
+  width: 72px;
+  height: 72px;
+  border: 2px solid var(--white);
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  box-shadow: none;
+  box-shadow: 0 6px 18px rgba(23, 32, 38, 0.14);
 }
 
 .contact-links {
