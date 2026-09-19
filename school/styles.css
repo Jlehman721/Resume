@@ -552,13 +552,10 @@ h3 {
 
 .contact-links a {
   width: 100%;
-  max-width: 100%;
   padding: 13px 16px;
   border: 1px solid var(--line);
   background: var(--white);
   color: var(--ink);
-  overflow-wrap: anywhere;
-  text-align: center;
   box-shadow: 0 1px 0 rgba(23, 32, 38, 0.04);
 }
 
