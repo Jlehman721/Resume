@@ -547,10 +547,10 @@ h3 {
 }
 
 .contact-intro {
-  --contact-photo-size: clamp(44px, 4vw, 52px);
+  --contact-photo-size: 36px;
   display: grid;
   grid-template-columns: var(--contact-photo-size) minmax(0, 1fr);
-  gap: clamp(12px, 2vw, 16px);
+  gap: 10px;
   align-items: start;
   min-width: 0;
 }
@@ -559,11 +559,11 @@ h3 {
   display: block;
   width: 100%;
   aspect-ratio: 1;
-  border: 2px solid var(--white);
+  border: 1px solid var(--white);
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  box-shadow: 0 6px 18px rgba(23, 32, 38, 0.14);
+  box-shadow: 0 3px 10px rgba(23, 32, 38, 0.12);
 }
 
 .contact-links {
@@ -662,10 +662,6 @@ h3 {
     right: 16px;
     bottom: 18px;
     width: calc(100% - 32px);
-  }
-
-  .contact-intro {
-    --contact-photo-size: 44px;
   }
 
   .hero-actions .button,
