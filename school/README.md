@@ -34,6 +34,6 @@ http://localhost:5174
 - `index.html` - page content and links
 - `styles.css` - visual design and responsive layout
 - `script.js` - project filter behavior
-- `Resume 2026.pdf` - linked resume PDF
+- `Resume Job Fair.pdf` - linked resume PDF
 - `assets/portfolio-hero.png` - hero image
 - `assets/sae-frame-cad.png` - SAE Formula frame CAD screenshot
